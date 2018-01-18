@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3A48932010ADE200E01A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A48922010ADE200E01A8C /* AppDelegate.swift */; };
+		AA3A48952010ADE200E01A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A48942010ADE200E01A8C /* ViewController.swift */; };
+		AA3A48982010ADE200E01A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3A48962010ADE200E01A8C /* Main.storyboard */; };
+		AA3A489A2010ADE200E01A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A48992010ADE200E01A8C /* Assets.xcassets */; };
+		AA3A489D2010ADE200E01A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3A489B2010ADE200E01A8C /* LaunchScreen.storyboard */; };
+		AA3A48A82010ADE200E01A8C /* JenkiniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A48A72010ADE200E01A8C /* JenkiniOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA3A48A42010ADE200E01A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3A48872010ADE100E01A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3A488E2010ADE200E01A8C;
+			remoteInfo = JenkiniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3A488F2010ADE200E01A8C /* JenkiniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkiniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3A48922010ADE200E01A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3A48942010ADE200E01A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA3A48972010ADE200E01A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3A48992010ADE200E01A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3A489C2010ADE200E01A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3A489E2010ADE200E01A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3A48A32010ADE200E01A8C /* JenkiniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkiniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3A48A72010ADE200E01A8C /* JenkiniOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkiniOSTests.swift; sourceTree = "<group>"; };
+		AA3A48A92010ADE200E01A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3A488C2010ADE200E01A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3A48A02010ADE200E01A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3A48862010ADE100E01A8C = {
+			isa = PBXGroup;
+			children = (
+				AA3A48912010ADE200E01A8C /* JenkiniOS */,
+				AA3A48A62010ADE200E01A8C /* JenkiniOSTests */,
+				AA3A48902010ADE200E01A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3A48902010ADE200E01A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A488F2010ADE200E01A8C /* JenkiniOS.app */,
+				AA3A48A32010ADE200E01A8C /* JenkiniOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3A48912010ADE200E01A8C /* JenkiniOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A48922010ADE200E01A8C /* AppDelegate.swift */,
+				AA3A48942010ADE200E01A8C /* ViewController.swift */,
+				AA3A48962010ADE200E01A8C /* Main.storyboard */,
+				AA3A48992010ADE200E01A8C /* Assets.xcassets */,
+				AA3A489B2010ADE200E01A8C /* LaunchScreen.storyboard */,
+				AA3A489E2010ADE200E01A8C /* Info.plist */,
+			);
+			path = JenkiniOS;
+			sourceTree = "<group>";
+		};
+		AA3A48A62010ADE200E01A8C /* JenkiniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A48A72010ADE200E01A8C /* JenkiniOSTests.swift */,
+				AA3A48A92010ADE200E01A8C /* Info.plist */,
+			);
+			path = JenkiniOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3A488E2010ADE200E01A8C /* JenkiniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3A48AC2010ADE200E01A8C /* Build configuration list for PBXNativeTarget "JenkiniOS" */;
+			buildPhases = (
+				AA3A488B2010ADE200E01A8C /* Sources */,
+				AA3A488C2010ADE200E01A8C /* Frameworks */,
+				AA3A488D2010ADE200E01A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkiniOS;
+			productName = JenkiniOS;
+			productReference = AA3A488F2010ADE200E01A8C /* JenkiniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3A48A22010ADE200E01A8C /* JenkiniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3A48AF2010ADE200E01A8C /* Build configuration list for PBXNativeTarget "JenkiniOSTests" */;
+			buildPhases = (
+				AA3A489F2010ADE200E01A8C /* Sources */,
+				AA3A48A02010ADE200E01A8C /* Frameworks */,
+				AA3A48A12010ADE200E01A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3A48A52010ADE200E01A8C /* PBXTargetDependency */,
+			);
+			name = JenkiniOSTests;
+			productName = JenkiniOSTests;
+			productReference = AA3A48A32010ADE200E01A8C /* JenkiniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3A48872010ADE100E01A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SantoshSS;
+				TargetAttributes = {
+					AA3A488E2010ADE200E01A8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AA3A48A22010ADE200E01A8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA3A488E2010ADE200E01A8C;
+					};
+				};
+			};
+			buildConfigurationList = AA3A488A2010ADE100E01A8C /* Build configuration list for PBXProject "JenkiniOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3A48862010ADE100E01A8C;
+			productRefGroup = AA3A48902010ADE200E01A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3A488E2010ADE200E01A8C /* JenkiniOS */,
+				AA3A48A22010ADE200E01A8C /* JenkiniOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3A488D2010ADE200E01A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3A489D2010ADE200E01A8C /* LaunchScreen.storyboard in Resources */,
+				AA3A489A2010ADE200E01A8C /* Assets.xcassets in Resources */,
+				AA3A48982010ADE200E01A8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3A48A12010ADE200E01A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3A488B2010ADE200E01A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3A48952010ADE200E01A8C /* ViewController.swift in Sources */,
+				AA3A48932010ADE200E01A8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3A489F2010ADE200E01A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3A48A82010ADE200E01A8C /* JenkiniOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA3A48A52010ADE200E01A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3A488E2010ADE200E01A8C /* JenkiniOS */;
+			targetProxy = AA3A48A42010ADE200E01A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA3A48962010ADE200E01A8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3A48972010ADE200E01A8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3A489B2010ADE200E01A8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3A489C2010ADE200E01A8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3A48AA2010ADE200E01A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3A48AB2010ADE200E01A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3A48AD2010ADE200E01A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkiniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3A48AE2010ADE200E01A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkiniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA3A48B02010ADE200E01A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkiniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkiniOS.app/JenkiniOS";
+			};
+			name = Debug;
+		};
+		AA3A48B12010ADE200E01A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkiniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkiniOS.app/JenkiniOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3A488A2010ADE100E01A8C /* Build configuration list for PBXProject "JenkiniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3A48AA2010ADE200E01A8C /* Debug */,
+				AA3A48AB2010ADE200E01A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3A48AC2010ADE200E01A8C /* Build configuration list for PBXNativeTarget "JenkiniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3A48AD2010ADE200E01A8C /* Debug */,
+				AA3A48AE2010ADE200E01A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3A48AF2010ADE200E01A8C /* Build configuration list for PBXNativeTarget "JenkiniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3A48B02010ADE200E01A8C /* Debug */,
+				AA3A48B12010ADE200E01A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3A48872010ADE100E01A8C /* Project object */;
+}
