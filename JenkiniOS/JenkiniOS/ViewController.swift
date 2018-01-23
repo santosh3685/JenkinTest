@@ -24,7 +24,17 @@ class ViewController: UIViewController {
             return s1 > s2
         }
         
-        var reversed = sorted(names, backwards);
+        var reversed = sorted(names, backwards)
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
         
         if (true) { print(reversed) }
         
