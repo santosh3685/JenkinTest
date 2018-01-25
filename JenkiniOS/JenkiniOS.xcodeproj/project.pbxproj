@@ -357,15 +357,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techm.pocbell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8a880121-f92a-4ae2-a3a1-9412a9c0010b";
-				PROVISIONING_PROFILE_SPECIFIER = BellPOCDev;
+				PROVISIONING_PROFILE = "d6486ab3-0370-4115-b746-b76fa11c940b";
+				PROVISIONING_PROFILE_SPECIFIER = m2devprofile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,15 +376,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.techm.pocbell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8a880121-f92a-4ae2-a3a1-9412a9c0010b";
-				PROVISIONING_PROFILE_SPECIFIER = BellPOCDev;
+				PROVISIONING_PROFILE = "d6486ab3-0370-4115-b746-b76fa11c940b";
+				PROVISIONING_PROFILE_SPECIFIER = m2devprofile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -395,7 +397,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOSTests;
@@ -412,7 +416,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.santosh.JenkiniOSTests;
