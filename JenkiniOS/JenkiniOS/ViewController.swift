@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             return s1 > s2
         }
         
-        var reversed = sorted(names, backwards)
+        /*var reversed = sorted(names, backwards)
         
         
         
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         
         
-        if (true) { print(reversed) }
+        if (true) { print(reversed) }*/
         
         // Dispose of any resources that can be recreated.
     }
