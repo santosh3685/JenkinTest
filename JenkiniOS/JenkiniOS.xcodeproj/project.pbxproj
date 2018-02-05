@@ -357,17 +357,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.belltechm.random.-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f0de4c3-a05a-4167-bd39-bb53d8aee903";
-				PROVISIONING_PROFILE_SPECIFIER = BellM2DevProfile;
+				PROVISIONING_PROFILE = "7c0aa76c-79b1-45aa-b571-104893ee6095";
+				PROVISIONING_PROFILE_SPECIFIER = M2NativeAdhocDistribution;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,17 +377,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abhishek Nautiyal (X65454Z3B3)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.belltechm.random.-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f0de4c3-a05a-4167-bd39-bb53d8aee903";
-				PROVISIONING_PROFILE_SPECIFIER = BellM2DevProfile;
+				PROVISIONING_PROFILE = "7c0aa76c-79b1-45aa-b571-104893ee6095";
+				PROVISIONING_PROFILE_SPECIFIER = M2NativeAdhocDistribution;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
