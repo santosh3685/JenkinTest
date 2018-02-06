@@ -364,10 +364,10 @@
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techm.mybellmobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7c0aa76c-79b1-45aa-b571-104893ee6095";
-				PROVISIONING_PROFILE_SPECIFIER = M2NativeAdhocDistribution;
+				PROVISIONING_PROFILE = "56aa8a81-842a-44e4-b838-c3723f027b27";
+				PROVISIONING_PROFILE_SPECIFIER = BellNativeApp_AdhocDist;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,10 +384,10 @@
 				INFOPLIST_FILE = JenkiniOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.belltechm.rand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techm.mybellmobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7c0aa76c-79b1-45aa-b571-104893ee6095";
-				PROVISIONING_PROFILE_SPECIFIER = M2NativeAdhocDistribution;
+				PROVISIONING_PROFILE = "56aa8a81-842a-44e4-b838-c3723f027b27";
+				PROVISIONING_PROFILE_SPECIFIER = BellNativeApp_AdhocDist;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
