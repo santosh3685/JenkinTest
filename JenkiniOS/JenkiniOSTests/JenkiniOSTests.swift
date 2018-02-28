@@ -46,7 +46,7 @@ class JenkiniOSTests: XCTestCase {
         let result = firstvalue + secondvalue
         
         
-        XCTAssertGreaterThan(result, 10)
+        XCTAssertGreaterThan(result, 30)
         
         
         
